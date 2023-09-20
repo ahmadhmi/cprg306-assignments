@@ -3,10 +3,11 @@ import StudentInfo from "./StudentInfo";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col">
       <h1>CPRG 306: Web Development 2 - Assignments</h1>
       <StudentInfo />
       <Link href="/week2">Week2</Link>
+      <Link href="/week3">Week3</Link>
     </main>
   );
 }
