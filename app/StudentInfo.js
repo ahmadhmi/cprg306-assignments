@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 export default function StudentInfo() {
+  
   let name = "Ahmad Heshmati";
   let courseSection = "CPRG 306 B";
   let gitHubLink = "https://github.com/ahmadhmi/cprg306-assignments";

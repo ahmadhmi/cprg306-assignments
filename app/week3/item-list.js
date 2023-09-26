@@ -72,10 +72,25 @@ export default function ItemList() {
     quantity: 4,
     category: "household",
   };
-  const items = [item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12];
+  const items = [
+    item1,
+    item2,
+    item3,
+    item4,
+    item5,
+    item6,
+    item7,
+    item8,
+    item9,
+    item10,
+    item11,
+    item12,
+  ];
   return (
-    <div  className = "p-3">
-      {items.map((item) => <Item item={item}/>)}
+    <div className="p-3">
+      {items.map((list) => (
+        <Item item={list} />
+      ))}
     </div>
   );
 }
