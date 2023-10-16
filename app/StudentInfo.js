@@ -7,10 +7,10 @@ export default function StudentInfo() {
   let gitHubLink = "https://github.com/ahmadhmi/cprg306-assignments";
 
   return (
-    <>
+    <div>
       <h1>Name: {name}</h1>
       <h1>Course Section: {courseSection}</h1>
       <Link href={gitHubLink}>GitHub Repository</Link>
-    </>
+    </div>
   );
 }

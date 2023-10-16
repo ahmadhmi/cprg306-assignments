@@ -54,7 +54,7 @@ export default function NewItem() {
         value={name}
         onChange={handleNameChange}
         placeholder="Item name"
-        required={true}
+        required
       />
       <div className="flex justify-between">
         <input
