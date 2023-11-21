@@ -14,7 +14,7 @@ export default function Page() {
   const [ingredient, setIngredient] = useState(null);
   const loadItems = async () => {
     const loadedItems = await getItem(user.uid);
-    setItems(loadItems);
+    setItems(loadedItems);
   };
 
   useEffect(() => {
